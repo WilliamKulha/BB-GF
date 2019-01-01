@@ -1,19 +1,19 @@
-
+//Colors
 $sharpBlue: #00a7e9;
+
+//Fonts
 $nunito: 'Nunito', sans-serif;
-$biggestSize: 1300px;
-$medSize: 980px;
-$smSize: 728px;
 
+//Sizes for Containers
+$extraLargeDesktop: 1690px;
+$medLargeDesktop: 1280px;
+$medDesktop: 980px;
+$tablet: 736px;
+$mobile: 480px;
 
-
-//Media Query Settings
-
-//max width of page column as well as drop to two columns.
-$desktopMedium: "only screen and (max-width : 1365px)";
-
-//max width of column, search bar collapse, products two columns smaller
-$desktopSmall: "only screen and (max-width : 1023px)";
-
-//navbar switch single column no margins. footer loses right column.
-$tablet: "only screen and (max-width : 767px)";
+//Media Queries
+$desktopXL: "only screen and (max-width : 1690px)";
+$desktopLG: "only screen and (max-width : 1280px)";
+$desktopM: "only screen and (max-width: 980px)";
+$tabletAll: "only screen and (max-width: 736px)";
+$mobileAll: "only screen and max-width : 480px)";
