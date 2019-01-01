@@ -1,0 +1,34 @@
+.full-width-container {
+  width: 100%;
+  margin: 5% 5%;
+}
+
+.container {
+  max-width: $extraLargeDesktop;
+  margin: 5% 10%;
+}
+
+@media #{$desktopLG} {
+  .container {
+    max-width: $medLargeDesktop;
+  }
+}
+
+@media #{$desktopM} {
+  .container {
+    max-width: $medDesktop;
+  }
+}
+
+@media #{$tabletAll} {
+  .container {
+    max-width: $tablet;
+  }
+}
+
+@media #{$mobileAll} {
+  .container {
+    width: 100%;
+    margin:0;
+  }
+}
