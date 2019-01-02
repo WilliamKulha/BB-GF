@@ -8,11 +8,13 @@
 
 .footer {
   @extend %footer;
+  border-top: $offWhiteBorder
 }
 
 .footer-dark {
   @extend %footer;
   background-color: $offBlack;
   color: white;
+  border-top: $offBlackBorder;
   
 }
