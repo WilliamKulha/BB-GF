@@ -1,0 +1,27 @@
+.nav-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+}
+
+%nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: $offWhite;
+
+  * {
+    padding: 1em;
+  }
+}
+
+.nav {
+  @extend %nav;
+}
+
+.nav-dark {
+  @extend %nav;
+  background-color: $offBlack;
+  color: white;
+}
