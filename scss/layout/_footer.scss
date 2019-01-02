@@ -1,14 +1,18 @@
 %footer {
   padding: 1em;
   margin-bottom: 0;
-  background-color: $offBlack;
-  color: white;
-
+  background-color: $offWhite;
+  color: $offBlack;
 
 }
 
-.footer-inverse {
+.footer {
   @extend %footer;
-  background-color: $offWhite;
-  color: $offBlack;
+}
+
+.footer-dark {
+  @extend %footer;
+  background-color: $offBlack;
+  color: white;
+  
 }
