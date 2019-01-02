@@ -1,13 +1,15 @@
-.full-width-wrapper {
+.wrapper {
   width: 100%;
-  margin: 5% 0 0 0;
+  margin: 2em 0 0 0;
   flex: 1;
 }
 
+
+/* Commented out until I figure out how to make this more useful.
 .wrapper {
   max-width: $extraLargeDesktop;
   height: 100%;
-  margin: 0 10% 0 10%;
+  margin: 2em 2em 2em 2em;
   flex: 1;
 }
 
@@ -32,6 +34,7 @@
 @media #{$mobileAll} {
   .wrapper {
     width: 100%;
-    margin:0;
+    margin: 2em 0 0 0;
   }
 }
+*/
