@@ -1,0 +1,23 @@
+//Nav Grid Full-Size
+
+.nav, .nav-dark {
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: repeat(1fr);
+  grid-gap: .1em;
+  grid-template-areas: 
+  "nav1 nav2 nav3 nav4 nav5 nav6 nav7 nav8 nav8 nav9 nav10 nav11 nav12";
+
+  .logo {
+    grid-column: 2/5;
+    display: flex;
+    align-items: center;
+    margin-top: .25em;
+  }
+
+  ul {
+    grid-column-start: 5;
+  }
+
+}
+
