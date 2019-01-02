@@ -21,3 +21,16 @@
 .left-text {
   text-align: left;
 }
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.block {
+  display: block;
+}
