@@ -3,25 +3,34 @@
   top: 0;
   left: 0;
   margin: auto;
+  z-index: 5;
   width: 100%;
 }
 
 %nav {
-  display: flex;
-  justify-content: space-between;
   background-color: $offWhite;
+  width: 100%;
 
   * {
-    padding: 1em;
+    margin: .5em .25em .25em .25em;
+  }
+
+  a, p {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
   }
 }
 
 .nav {
   @extend %nav;
+  border-bottom: $offWhiteBorder;
 }
 
 .nav-dark {
   @extend %nav;
   background-color: $offBlack;
   color: white;
+  border-bottom: $offBlackBorder;
 }
+
