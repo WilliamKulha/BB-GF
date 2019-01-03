@@ -14,6 +14,11 @@
   text-align: center;
 }
 
+.center-img {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .right-text {
   text-align: right;
 }
@@ -22,15 +27,16 @@
   text-align: left;
 }
 
-.flex-row {
+.d-flex-row {
   display: flex;
 }
 
-.flex-column {
+.d-flex-column {
   display: flex;
   flex-direction: column;
 }
 
-.block {
+.d-block {
   display: block;
 }
+
