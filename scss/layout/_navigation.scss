@@ -1,15 +1,15 @@
-.nav-wrapper {
+.fixed-nav-wrapper {
   position: fixed;
   top: 0;
   left: 0;
-  margin: auto;
   z-index: 5;
-  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
 }
 
 %nav {
-  background-color: $offWhite;
-  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
 
   * {
     margin: .5em .25em .25em .25em;
@@ -19,18 +19,19 @@
     text-decoration: none;
     display: flex;
     align-items: center;
+    text-align: center;
   }
 }
 
 .nav {
   @extend %nav;
+  @include colorScheme($offWhite, $offBlack);
   border-bottom: $offWhiteBorder;
 }
 
 .nav-dark {
   @extend %nav;
-  background-color: $offBlack;
-  color: white;
+  @include colorScheme($offBlack, $offWhite);
   border-bottom: $offBlackBorder;
 }
 
