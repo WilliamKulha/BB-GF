@@ -23,12 +23,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 
 body {
-  line-height: 1;
+  line-height: 1.1;
   display: flex;
   flex-flow: column;
   min-height: 100vh;
   width: 100vw;
   padding-top: 50px;
+  overflow-x: hidden;
 }
 
 ol, ul {
@@ -50,4 +51,8 @@ q {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+img {
+   max-width: 100%;
+}
 
