@@ -1,23 +1,30 @@
-//Nav Grid Full-Size
+// Nav Grid Full-Size
 
 .nav, .nav-dark {
   display: grid;
-  grid-template-rows: 1;
-  grid-template-columns: repeat(1fr);
+  grid-template-columns: repeat(12, 1fr);
   grid-gap: .1em;
   grid-template-areas: 
   "nav1 nav2 nav3 nav4 nav5 nav6 nav7 nav8 nav8 nav9 nav10 nav11 nav12";
+}
 
-  .logo {
-    grid-column: 2/5;
-    display: flex;
-    align-items: center;
-    margin-top: .25em;
-  }
+.logo {
+  grid-column: 2/4;
+  display: flex;
+  font-size: 2em;
+  align-items: center;
+  margin-top: .25em;
+  font-weight: bold;
+}
 
-  ul {
-    grid-column-start: 5;
-  }
+// Container Grid 
+
+.wrapper {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10px, 2fr));
+  grid-template-rows: repeat(auto-fit, minmax(10px, 1fr));
+  grid-gap: .25em;
 
 }
 
