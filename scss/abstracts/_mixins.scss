@@ -3,3 +3,15 @@
   -ms-transform: $property;
   transform: $property;
 }
+
+@mixin colorScheme($backgroundColor, $color) {
+  background-color: $backgroundColor;
+  color: $color;
+  a, p {
+    color: $color;
+  }
+  a:visited {
+    color: $sharpBlue;
+
+  }
+}
